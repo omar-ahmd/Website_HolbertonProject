@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var thumbnailElement9 = document.getElementById("smart_thumbnail9");
 
 
+
     thumbnailElement1.addEventListener("click", function() {
         if (thumbnailElement1.className == "imgg") {
             thumbnailElement1.className = "small imgg"
