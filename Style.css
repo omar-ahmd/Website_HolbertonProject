@@ -104,6 +104,14 @@ header nav ul li a.active {
     .social-media {
         display: none;
     }
+    article div div div img {
+        width: 80%;
+        height: 150px;
+        transition: all linear 0.5s;
+    }
+    article div div div h1 {
+        font-size: 15px;
+    }
 }
 
 @media (max-width:1270px) {
@@ -293,19 +301,6 @@ a:hover {
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-/* Caption text */
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
 }
 
 
