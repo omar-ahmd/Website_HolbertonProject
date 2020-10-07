@@ -196,12 +196,17 @@ header div a.fa-twitter {
 
 .imgg,
 .ifram {
-    transition: all linear 0.5s;
+    transition: all linear 0.2s;
+}
+
+img.small {
+    width: 200px;
+    height: 300px;
 }
 
 .gallery:hover img.small {
     width: 200px;
-    height: 200px;
+    height: 280px;
 }
 
 .gallery:hover img {
